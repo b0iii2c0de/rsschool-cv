@@ -31,7 +31,7 @@ function greet(name) {
 
 ## Experience:
 
-I've used to work with some commercial projects and just a touch as a freelancer. But as you could notice, I open to new experience!
+I've used to work with some commercial projects and just a touch as a freelancer. But as you could notice, I open to new experience - let's do some collaborative work together!
 
 ## Education and courses:
 
@@ -43,8 +43,8 @@ I've used to work with some commercial projects and just a touch as a freelancer
 
 - English (B1+)
 - Russian (C2)
-- Spanish (A1)
-- Portuguese (A1)
+- Spanish (A2)
+- Portuguese (A2)
 
 -----
 
