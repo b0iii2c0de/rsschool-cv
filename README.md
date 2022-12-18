@@ -1,1 +1,1 @@
-start CV task
+https://C0deB0iii.github.io/rsschool-cv/
