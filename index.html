@@ -1,13 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link rel="stylesheet" href="styles/style.css">
+	<title>Kravchenko Slava | Full-stack Developer</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Information about my experience, education and projects">
+	<meta name="keywords" content="Full-stack Developer, cv">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="">
+	<link rel="preload" href="css/normalize.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="css/normalize.css">
+	</noscript>
+	<link rel="stylesheet" href="css/iconsfont.css ">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="./img/Cover.jpg" type="image/jpg">
 </head>
+
 <body>
-    <h1>Slava Kravchenko</h1>
+
+	<header class="header">
+		<div class="container header__container">
+			<a class="logo" href="#">S</a>
+
+			<button class="burger">
+				<span class="visually-hidden">Open menu</span>
+				<span class="burger__line"></span>
+			</button>
+
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link nav__link--active" href="#greeting">Home</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#about">About</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#certificates">Certificates</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#experience">Experience</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#contacts">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+		<!-- greeting -->
+		<section class="greeting section" id="greeting">
+			<div class="container greeting__container">
+				<h1 class="visually-hidden">Kravchenko Slava, Full-stack developer</h1>
+				<p class="greeting__text scroll-item">
+					Hi, my name is <span class="text-color typed"></span>
+					<br>
+					I'm a Full-stack Developer.
+				</p>
+				<a class="btn btn--big greeting__btn scroll-item" href="#about">Know more</a>
+			</div>
+		</section>
+		<!-- / greeting -->
+
+		<!-- about -->
+		<section class="about section" id="about">
+			<div class="container about__container">
+				<div class="scroll-item">
+					<div class="about__photo">
+						<figure class="about__photo-wrapper scroll-show">
+							<img src="img/Cover.jpg" alt="My photo">
+						</figure>
+					</div>
+				</div>
+				<div class="scroll-item">
+					<div class="about__content scroll-show">
+						<h2 class="title">About Me</h2>
+						<p class="about__text text">Hi there! Mi nombre es Slava y tu? LOL! Hell yeah, I could speak many langs! Btw, I'm in front and back-ends development, luv to code and scam elephants! Yay!</p>
+						<p class="about__text text">Overskilled and really charged to climb the very top of the mountains</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- / about -->
+
+		<!-- certificates -->
+		<section class="certificates section" id="certificates">
+			<div class="container container--m">
+				<h2 class="title certificates__title scroll-item">Certificates</h2>
+				<ul class="certificates__list">
+					<li class="certificates__item scroll-item">
+						<div class="certificates__card icon-language scroll-show">
+							<h3 class="certificates__name subtitle">English</h3>
+							<p class="certificates__company">Selftaught</p>
+							<div class="certificates__description">
+								<p>I think about B1 is fairer then A, lol</p>
+							</div>
+						</div>
+					</li>
+					<li class="certificates__item scroll-item">
+						<div class="certificates__card icon-file-code scroll-show">
+							<h3 class="certificates__name subtitle">Basics of programming</h3>
+							<p class="certificates__company">Yandex Practicum</p>
+							<div class="certificates__description">
+								<p>JavaScript</p>
+								<p>Web development</p>
+								<p>Database</p>
+								<p>HTML & CSS</p>
+							</div>
+						</div>
+					</li>
+					<li class="certificates__item scroll-item">
+						<div class="certificates__card icon-paintbrush scroll-show">
+							<h3 class="certificates__name subtitle">Video & Audio Production</h3>
+							<p class="certificates__company">Selftaught</p>
+							<div class="certificates__description">
+								<p>DiVinci Resolve</p>
+								<p>Cubase/Studio One</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- / certificates -->
+
+		<!-- experience -->
+		<section class="experience section" id="experience">
+			<div class="container container--m">
+				<div class="experience__inner">
+
+					<h2 class="title experience__title scroll-item">My Education</h2>
+					<ul class="experience__list">
+						<li class="experience__item scroll-item">
+							<a class="experience__card scroll-show" href="https://practicum.yandex.ru/web/" target="_blank">
+								<div>
+									<h3 class="experience__card-title subtitle">Yandex Practicum</h3>
+									<p class="experience__card-date">
+										<time datetime="2022-11">11/2022</time> - novadays
+									</p>
+									<p class="experience__card-description">Basics of programming: javascript, html, css</p>
+								</div>
+							</a>
+						</li>
+						<li class="experience__item scroll-item">
+							<a class="experience__card scroll-show" href="https://rs.school/js/" target="_blank">
+								<div>
+									<h3 class="experience__card-title subtitle">RSSchool</h3>
+									<p class="experience__card-date"><time datetime="2022-11">11/2022</time>
+									</p>
+									<p class="experience__card-description">Basics of programming: javascript, html, css</html></p>
+								</div>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- / experience -->
+	</main>
+
+	<!-- contacts -->
+	<footer class="contacts section" id="contacts">
+		<div class="container container--s contacts__container">
+			<!-- <a class="logo contacts__logo scroll-item" href="#">E</a> -->
+			<a class="arrow-up" href="#about">
+			</a>
+			<p class="contacts__slogan scroll-item">Living, learning, & leveling up one day at a time.</p>
+			<ul class="contacts__list scroll-item">
+				<li>
+					<a class="contacts__link icon-email scroll-show" href="mailto:boiiicode@gmail.com" target="_blank" title="boiiicode@gmail.com">
+						<span class="visually-hidden">email</span>
+					</a>
+				</li>
+				<li>
+					<a class="contacts__link icon-phone scroll-show" href="tel:+79254657572" target="_blank"
+						title="+7 9254 65 75 72">
+						<span class="visually-hidden">phone</span>
+					</a>
+				</li>
+				<li>
+					<a class="contacts__link icon-github scroll-show" href="https://github.com/C0deB0iii/" target="_blank"
+						title="C0deB0iii">
+						<span class="visually-hidden">github</span>
+					</a>
+				</li>
+			</ul>
+			<div class="copyright"><span>&copy;</span> 2022 - Template developed by <a href="">C0deB0iii</a></div>
+		</div>
+	</footer>
+	<!-- / contacts -->
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+	<script src="js/typed.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/vanilla-tilt.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
+
 </html>
