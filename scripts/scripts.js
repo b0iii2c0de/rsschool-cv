@@ -201,7 +201,7 @@ window.addEventListener("resize", resetNav);
 // https://mattboldt.com/demos/typed-js/
 
 var typed = new Typed(".typed", {
-  strings: ["Slava", "Kravchenko Slava"],
+  strings: ["b0iii", "c0de b0iii"],
   typeSpeed: 90,
   startDelay: 1800,
   backSpeed: 60,
