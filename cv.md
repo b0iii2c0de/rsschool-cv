@@ -1,4 +1,4 @@
-# Slava Kravchenko
+# c0de b0iii
 
 -----
 
@@ -11,7 +11,7 @@
 ## About myself:
 
 
-Hi there! My name is Slava aka c0de b0iii! I'm about to learn some geeky web techs such as: JS/TS, later Rust and Solidity. You ask why? I think, in near future we see Web3 conquer the world! Well, I wanna be in the first wagon, being prepared for this exciting trip. Lego!
+Hi there! My name is c0de b0iii! I'm about to learn some geeky web techs such as: JS/TS, later Rust and Solidity. You ask why? I think, in near future we see Web3 conquer the world! Well, I wanna be in the first wagon, being prepared for this exciting trip. Lego!
 
 
 ## Stack:
@@ -36,13 +36,13 @@ I've used to work with some commercial projects and just a touch as a freelancer
 ## Education and courses:
 
 1. [The Rolling Scopes School](https://rs.school/js)
-2. [Yandex Practicum](https://practicum.yandex.ru/web-plus/)
-3. [FreeCodeCamp](https://www.youtube.com/c/Freecodecamp)
+2. [Yandex Practicum](https://practicum.yandex.ru/learn/web)
+3. [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 
 ## Languages I speak:
 
-- English (B1+)
-- Russian (C2)
+- English (B2)
+- Russian (Native)
 - Spanish (A2)
 - Portuguese (A2)
 
